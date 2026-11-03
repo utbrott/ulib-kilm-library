@@ -1,0 +1,102 @@
+(footprint "S1751-46R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.25mm SMD Test Terminal")
+	(tags "test measure point")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c824d28d-ed54-46cd-9cad-a827ca266e7f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "S1751-46R"
+		(at 0 1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51f2079b-45e5-4aa9-a1f6-5743b4ad2a35")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/S1751R-1220585.pdf"
+		(at 0 0.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d07d83b8-97e4-464e-b0ce-a769d0abc504")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b39657ae-e088-4423-b9c4-a92e5fd7fbd3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.8 -1)
+		(end 1.8 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3272f780-874a-4022-a9e0-6ef2c5f6a82d")
+	)
+	(fp_rect
+		(start -1.9 -1.1)
+		(end 1.9 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8111d102-463f-4da0-9839-bae6a242d204")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b808a6d-e286-4c65-9a2a-8f919686256a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 3.45 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0f7c2db7-c5d0-4383-864b-97dbf9e26412")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,207 @@
+(footprint "Wurth_WL-OCPT_DIP8-M"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DIP-8, body 6.6x9.76x3.5mm, https://www.we-online.com/en/components/products/WL-OCPT_DIP_8#/articles/")
+	(tags "THT")
+	(property "Reference" "REF**"
+		(at 5.08 -2.32 0)
+		(layer "F.SilkS")
+		(uuid "bcf6b7a3-0236-4a8c-88b2-f8eede3f6e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Q_Wurth_WL-OCPT_DIP8-M"
+		(at 5.08 9.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d911b8b1-2ff1-4aa3-b0f9-e35dc0d51683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "561f9286-abda-41b9-ab28-f7c5c081fccf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a8251c0-325a-49db-9faf-aef68099d8a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.085 -0.75)
+		(end -1.085 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "454b33db-3505-4952-b130-c424bdc71283")
+	)
+	(fp_rect
+		(start 1.67 -1.18)
+		(end 8.49 8.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4dbc31d0-6bd1-4ecf-a77e-6f971993ca6a")
+	)
+	(fp_rect
+		(start -1 -1.32)
+		(end 11.16 8.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e7bd15db-b0d4-498f-876f-8d22c7660243")
+	)
+	(fp_line
+		(start 1.78 -0.75)
+		(end 0.88 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "535d069b-9455-4618-937c-a9dd28bda288")
+	)
+	(fp_line
+		(start 1.78 0.75)
+		(end 0.88 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb3e9abd-406b-464c-8286-dfc9eb6bddb5")
+	)
+	(fp_rect
+		(start 1.78 -1.07)
+		(end 8.38 8.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ac8775b-6962-4da1-9000-512dff55eb9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b744970f-f608-48c3-9722-c1003db217a5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9aaaa0e6-b5d9-4136-92e4-09afb96400ee")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91224384-1b70-4cc8-ac75-d79be7c7c187")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6e10b66-e93c-4a1d-826c-e96ac6c84525")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d234e10-ee01-4503-a4e2-f675ad036058")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9e51533-547c-4414-b786-0e8a23b977db")
+	)
+	(pad "6" thru_hole circle
+		(at 10.16 5.08)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e52cf98-9da9-4efd-a484-e6860e00305d")
+	)
+	(pad "7" thru_hole circle
+		(at 10.16 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ffaa84a-c485-4e86-9eba-b84f1b29c164")
+	)
+	(pad "8" thru_hole circle
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47d59619-e5ef-432b-9ac2-305dea1c6ea2")
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Transistor_THT_Wurth.3dshapes/Q_Wurth_WL-OCPT_DIP8-M.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

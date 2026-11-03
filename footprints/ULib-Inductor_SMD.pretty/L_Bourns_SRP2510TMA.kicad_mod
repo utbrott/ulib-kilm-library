@@ -1,0 +1,116 @@
+(footprint "L_Bourns_SRP2510TMA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns SMD Power Inductor, 2.5x2x0.8mm")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "50a634d7-0834-48b2-b3a6-7ad32d49ea5d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SRP2510TMA"
+		(at 0 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f72c98d-b9d0-4feb-b32c-305c2dba152f")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5ab3e78-8bdc-4122-9d99-8d7129ec6b19")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83d2cba3-9832-4ea3-bea6-a225fde64e08")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.15 -1.1)
+		(end 0.15 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ab67ee5c-a9be-4684-9fd2-eb7eb2f03bf5")
+	)
+	(fp_line
+		(start -0.15 1.1)
+		(end 0.15 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8362279e-1624-41a3-8d85-77a296f15830")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "221fce40-d4ac-4327-b0d4-4a87e5aaa07d")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0)
+		(size 1.2 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04166666667)
+		(uuid "ce02349c-52f2-4b12-9eba-f1119cd91aa7")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0)
+		(size 1.2 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04166666667)
+		(uuid "7fa977fe-3462-4763-b6d7-dcd0b9079698")
+	)
+	(embedded_fonts no)
+	(model "${ULIB_3DMODEL_DIR}/Inductor/SRP2510TMA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

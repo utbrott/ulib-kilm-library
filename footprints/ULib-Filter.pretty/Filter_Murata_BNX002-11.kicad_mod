@@ -1,0 +1,164 @@
+(footprint "Filter_Murata_BNX002-11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "EMI Filter")
+	(property "Reference" "REF**"
+		(at 0 -6.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8f4c24e0-f84e-4c2f-be39-e04941cfbe36")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BNX002-11"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0af5766-e24e-4f0b-af82-f851e9a978a9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc80a5a7-87bc-4bb5-b7eb-75d151f764af")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f1a593f-c109-4239-ad8c-ed13f5a5ee2e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.1 -5.6)
+		(end 6.1 5.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a2998ac1-3571-4fd3-a205-ef2e4fccf4bd")
+	)
+	(fp_rect
+		(start -6.3 -5.8)
+		(end 6.3 5.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2b194945-49f9-437f-aefa-00df28e44ae0")
+	)
+	(fp_rect
+		(start -6 -5.5)
+		(end 6 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d22cd232-a247-4f9c-b0b2-036caaceec80")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "822382e4-8373-4336-bf82-32ffa5f5c896")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21b8a172-a3f3-41cd-b649-36db8ebcefa9")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 2.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1796783c-1044-477c-a096-4c044f0f3882")
+	)
+	(pad "3" thru_hole circle
+		(at -2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d16531be-7a9e-43e2-8f69-419d30bfaa58")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 2.5)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2d72932-0005-4db6-9d37-8284fadac0ce")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e340544a-29c1-4bdd-913b-56d89dc2b58c")
+	)
+	(pad "4" thru_hole circle
+		(at 5 0)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "437e8c45-92f4-4fce-9d5c-ff73c8e048e4")
+	)
+	(embedded_fonts no)
+	(model "${DRIVE_3DMODEL_DIR}/Filter/BNX002-11.stp"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

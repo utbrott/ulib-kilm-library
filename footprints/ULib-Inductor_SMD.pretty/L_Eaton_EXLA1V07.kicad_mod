@@ -1,0 +1,117 @@
+(footprint "L_Eaton_EXLA1V07"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb975ffb-b6aa-4cbb-9fc8-3b7a0524b6d8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EXLA1V07"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f065437c-7d92-4ef0-adc6-a91d128a15af")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9091f4ea-ca73-4461-aa18-778b6325392a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32253a84-f123-4b08-a275-9f804ef46693")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.2 -4)
+		(end 4.2 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e89e92ae-8f06-4bdb-aed1-70a55f871abb")
+	)
+	(fp_rect
+		(start -4.4 -4.15)
+		(end 4.4 4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c80b7e8-0356-4046-9fb5-5f0ff89be1b3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8e91827c-a96c-4ab0-81a1-1333f7d38f7a")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.55)
+		(size 7.2 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02173913043)
+		(uuid "272a8c02-070b-4a8f-a622-f6bc4e85e2ab")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.55)
+		(size 7.2 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02173913043)
+		(uuid "3d48a401-02eb-4281-b48c-0b26df98ab59")
+	)
+	(embedded_fonts no)
+	(model "${ULIB_3DMODEL_DIR}/Inductor/EXLA1V07.stp"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

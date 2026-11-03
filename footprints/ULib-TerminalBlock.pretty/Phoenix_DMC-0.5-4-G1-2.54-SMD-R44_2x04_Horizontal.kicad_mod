@@ -1,0 +1,227 @@
+(footprint "Phoenix_DMC-0.5-4-G1-2.54-SMD-R44_2x04_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe0bb1c1-42cb-4d81-9f92-52596f5bb044")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DMC-0.5/4-G1-2.54-SMD-R44"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c931ed5b-5b21-43c8-af8d-0122d8e04654")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c61d4d77-d157-4ec9-a4d9-0981f22f7ed4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15d06920-b7be-4af1-85ac-08aa26ceff03")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.73 -9.64)
+		(end -4.75 -9.64)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "548c8861-2c41-4559-9748-57c4fa50e554")
+	)
+	(fp_line
+		(start -5.73 0)
+		(end -5.73 -9.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea23a7d1-6c6d-4d22-b0b8-79dff3efa100")
+	)
+	(fp_line
+		(start -5.73 0)
+		(end 5.73 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a68268a9-ec08-4861-9590-5f6b03d6ceae")
+	)
+	(fp_line
+		(start 5.73 -9.64)
+		(end 4.75 -9.64)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82803e29-a958-4806-a9da-27e70dd45392")
+	)
+	(fp_line
+		(start 5.73 0)
+		(end 5.73 -9.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b13499cd-4450-425c-9566-afde788ba09b")
+	)
+	(fp_poly
+		(pts
+			(xy -4.75 -10.75) (xy -5.25 -11) (xy -5.25 -10.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "71b10f6a-b133-4566-b7e9-5e974f15f804")
+	)
+	(fp_rect
+		(start -6 -12.75)
+		(end 6 0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9255e093-df9c-4ad0-8854-570a63a70e87")
+	)
+	(fp_rect
+		(start -5.73 -9.64)
+		(end 5.73 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b61ef12e-e4fb-45a5-922d-2516e4f920ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c49eeb98-f1fc-496c-a435-7e8ddde2b3d7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.79 -10.6)
+		(size 1.2 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02941176471)
+		(uuid "5cf435b4-56f8-4bb8-a36f-ff58db9334be")
+	)
+	(pad "2" smd roundrect
+		(at -1.27 -10.6)
+		(size 1.2 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02941176471)
+		(uuid "708e4c0e-6779-4b4e-8a05-2e4266074872")
+	)
+	(pad "3" smd roundrect
+		(at 1.27 -10.6)
+		(size 1.2 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02941176471)
+		(uuid "99cf9997-0f28-42e0-8cec-3b00df6b8802")
+	)
+	(pad "4" smd roundrect
+		(at 3.79 -10.6)
+		(size 1.2 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02941176471)
+		(uuid "3b08a3db-5c0a-414a-8319-2b304cc2a59d")
+	)
+	(pad "5" thru_hole circle
+		(at -3.79 -6.78)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ddcb5a56-40e2-4938-a899-25c795898fad")
+	)
+	(pad "6" smd roundrect
+		(at -1.27 -6.35)
+		(size 1.2 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02941176471)
+		(uuid "5c3dc749-e9d9-491d-a40d-d82896f6a31b")
+	)
+	(pad "7" smd roundrect
+		(at 1.27 -6.35)
+		(size 1.2 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02941176471)
+		(uuid "cd9c0103-7251-4000-b342-b407db2c1805")
+	)
+	(pad "8" thru_hole circle
+		(at 3.79 -6.78)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8b215df1-606f-4843-9652-6f04a520ccab")
+	)
+	(embedded_fonts no)
+	(model "${DRIVE_3DMODEL_DIR}/TerminalBlock/Phoenix_DMC-0-5-4-G1-2-54-SMD-R44_2x04_Horizontal.stp"
+		(offset
+			(xyz -5.3 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

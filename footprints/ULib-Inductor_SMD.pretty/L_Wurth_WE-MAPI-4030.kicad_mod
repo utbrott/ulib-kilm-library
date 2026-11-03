@@ -1,0 +1,236 @@
+(footprint "L_Wurth_WE-MAPI-4030"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shielded Power Inductor, body 4x4mm, https://www.we-online.com/catalog/en/WE-MAPI#/articles/WE-MAPI-4030")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "1de1e6ec-6fcc-4fe9-a260-224e3a43a2ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-MAPI-4030"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "968978b9-5e66-41db-b9da-2476d2e4984b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c1c4fb8-193e-46ab-8e74-b5dd05942efe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e469e839-727e-4c04-ae49-a0883a4b4525")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.16 0)
+		(end -2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a59d7ab1-f920-41d4-a71a-98a6c1730c68")
+	)
+	(fp_line
+		(start -2.16 2.16)
+		(end 2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c07f419-def7-4364-9f8a-d328188cbd19")
+	)
+	(fp_line
+		(start 0 -2.16)
+		(end 2.16 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "403ad593-8263-4c47-81da-7b70752ce1c5")
+	)
+	(fp_line
+		(start 2.16 -2.16)
+		(end 2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66fc4279-40fe-461e-9d3a-dc2253ff376a")
+	)
+	(fp_rect
+		(start -2.3 -2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "495ca330-548b-4b59-a1c3-e2efaef1edb3")
+	)
+	(fp_line
+		(start -2.05 -1.05)
+		(end -1.05 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af39bfa4-b4f7-4f7a-899e-7521dba48a3d")
+	)
+	(fp_line
+		(start -2.05 2.05)
+		(end -2.05 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbc9ac8d-9609-4f14-b24a-60435df7d0f5")
+	)
+	(fp_line
+		(start -2.05 2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45432ae4-2a6b-41cc-a1fa-5bd819e46f9e")
+	)
+	(fp_line
+		(start -1.05 -2.05)
+		(end 2.05 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6ff2a82-5d7b-4204-a467-b05928f8b0ab")
+	)
+	(fp_line
+		(start 2.05 -2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec245a51-765a-48d5-b9c9-52a895a967be")
+	)
+	(fp_text user "Solder Resist"
+		(at 0 -2.1 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "41d1f81c-b0f0-4925-9697-7732452d317e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "532f54ee-7dd7-439f-bff8-a7c945ee894a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0e8df1f-f436-4bf2-83c4-58b6ca426613")
+	)
+	(pad "2" smd rect
+		(at 1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d506c4b-82d2-431a-9937-a81cc5df0b2b")
+	)
+	(zone
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "8dd57544-6af7-453a-8ffa-b33a22268882")
+		(name "Solder Resist")
+		(hatch full 0.1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.7 2.15) (xy 0.7 2.15) (xy 0.7 -2.15) (xy -0.7 -2.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-MAPI-4030.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

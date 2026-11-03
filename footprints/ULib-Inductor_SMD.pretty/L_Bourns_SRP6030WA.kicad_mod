@@ -1,0 +1,170 @@
+(footprint "L_Bourns_SRP6030WA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns SMD Power Inductor, 7.1x6.6x2.8mm")
+	(tags "Inductor L")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3295465a-efb1-48f2-b3d0-89b9a50d9270")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Bourns_SRP6030WA"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "010bb505-468e-45b0-93b1-44c1b16ec425")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -6.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ec5ebb4-3218-441d-8faf-b966654bd4ca")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -6.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e00c425a-e5eb-458d-b2f0-bae48c2f169c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.55 -3.3)
+		(end -3.55 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bda3198-95c9-4983-a85a-bb834d4d48dc")
+	)
+	(fp_line
+		(start -3.55 -3.3)
+		(end 3.55 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e29ebea-9ced-406b-9af8-891e068c9757")
+	)
+	(fp_line
+		(start -3.55 3.3)
+		(end -3.55 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09bf1011-f841-4827-b7ac-0daaf325b965")
+	)
+	(fp_line
+		(start -3.55 3.3)
+		(end 3.55 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9655c22d-2f8c-4c00-bad8-337481a2ad4c")
+	)
+	(fp_line
+		(start 3.55 -3.3)
+		(end 3.55 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "091aeb0c-1ba8-4854-8351-a4e6af9e8e8f")
+	)
+	(fp_line
+		(start 3.55 3.3)
+		(end 3.55 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "349dd466-2a68-4533-9088-006ebabe6a36")
+	)
+	(fp_rect
+		(start -4.4 -3.5)
+		(end 4.4 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "746f0ea7-8db9-43fd-a27d-8f3ffdebedab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fb85df2e-8e98-444f-8a4f-eba57ee007f2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.775 0)
+		(size 2.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "bc58cdad-0be6-4c1d-b192-725e8d9e7dcd")
+	)
+	(pad "2" smd roundrect
+		(at 2.775 0)
+		(size 2.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "dbbc08a5-a78a-4a01-8123-896b16b279d2")
+	)
+	(embedded_fonts no)
+	(model "${ULIB_3DMODEL_DIR}/Inductor/SRP6030WA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,11 @@
+capabilities:
+  footprints: true
+  symbols: true
+  templates: true
+created_with: kilm
+description: ULib KiCad Library
+env_var: ULIB_LIB_PATH
+name: ulib-kicad-lib
+type: github
+updated_with: kilm
+version: 1.0.0

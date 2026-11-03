@@ -1,0 +1,241 @@
+(footprint "BarrelJack_Wurth_WE-DC-2155-RA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "WR-DC DC 2155 Power Jack Right Angled THT")
+	(tags "dc jack wurth 2155")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a57bd975-e7d0-4e77-bea2-48338542a161")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-DC-2155-RA"
+		(at -3 6 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8ea5be94-bbb8-48df-b8c8-e78588e12131")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84e24f95-9223-4763-930e-d8438439ca35")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f18ff333-9d29-4080-826b-278103b04125")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.5 -0.9)
+		(end 4.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83d0425b-3f51-4a99-982f-8f2838516bd5")
+	)
+	(fp_line
+		(start -4.5 13.6)
+		(end -4.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3d09bee-549b-4cfb-a236-1559e503fbd9")
+	)
+	(fp_line
+		(start 4.5 -0.9)
+		(end 4.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c3cb100-205a-4253-8f1e-d174629bbce0")
+	)
+	(fp_line
+		(start 4.5 5)
+		(end 4.5 13.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f57348cb-6336-4506-92d6-2d01ead4395b")
+	)
+	(fp_line
+		(start 4.5 13.6)
+		(end -4.5 13.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5964b54-4c35-496c-bf68-55405348ea22")
+	)
+	(fp_line
+		(start -4.75 -1.25)
+		(end -4.75 13.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9892204f-a40b-425f-a64a-8d976a19a678")
+	)
+	(fp_line
+		(start -4.75 13.75)
+		(end 4.75 13.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "98e49d48-e825-4aa3-ad9e-d9aee51c8b86")
+	)
+	(fp_line
+		(start 4.75 -1.25)
+		(end -4.75 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "74def283-9bea-483e-bd94-9259f4dc6d1c")
+	)
+	(fp_line
+		(start 4.75 1)
+		(end 4.75 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "abd0fb91-f785-4b12-8845-1fb478057a21")
+	)
+	(fp_line
+		(start 4.75 5)
+		(end 5.75 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4596375d-054e-4757-b5cf-64e46f2e02a0")
+	)
+	(fp_line
+		(start 4.75 13.75)
+		(end 4.75 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3f19789-e4a2-4a25-90c7-ccc37850a5c7")
+	)
+	(fp_line
+		(start 5.75 1)
+		(end 4.75 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ed891c9-fc83-4679-aca2-45af7fd926d0")
+	)
+	(fp_line
+		(start 5.75 5)
+		(end 5.75 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f403f7e7-8053-40ef-b2f3-724786ad2765")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.8 6 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ff0ff052-f4ff-4a84-a1b3-d5cd10b53158")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 3.6 1.4)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "4aeac2ae-7814-4cda-9997-528891465c56")
+	)
+	(pad "2" thru_hole oval
+		(at 0 5.8)
+		(size 3.6 1.4)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5ed57b32-78d0-4471-b5de-546ab5b8c686")
+	)
+	(pad "3" thru_hole oval
+		(at 4.8 3 90)
+		(size 3.6 1.4)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "fe66ee8f-df9d-4bbf-b973-7e4182d700f0")
+	)
+	(embedded_fonts no)
+	(model "${DRIVE_3DMODEL_DIR}/Connector/694106301002.stp"
+		(offset
+			(xyz 0 -10.1 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

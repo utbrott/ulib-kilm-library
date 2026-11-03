@@ -1,0 +1,303 @@
+(footprint "LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm303dlhc.pdf)")
+	(tags "LGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(layer "F.SilkS")
+		(uuid "e4943e8b-ee86-4038-9508-a487714d0432")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y"
+		(at 0 3.45 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550b12a2-21d9-454c-8f49-490913f07fdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92b73512-be25-42b0-bca7-f89461185a37")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94da2c32-5f2b-4f48-9f3b-a72045c59e74")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "839a0254-df93-443f-8db2-317766962060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.61 -2.61)
+		(end -0.56 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fcf64a4-8f44-4645-ba38-dc717e36d3e3")
+	)
+	(fp_line
+		(start -1.61 -2.56)
+		(end -1.61 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea6a4b01-b831-49ad-9457-1ccf41878d1d")
+	)
+	(fp_line
+		(start -1.61 2.61)
+		(end -1.61 2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac6f74ab-f6f5-4926-9e05-ae579e8797fc")
+	)
+	(fp_line
+		(start -0.56 2.61)
+		(end -1.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63d4f1ea-0eb1-4e4f-9b33-2e21c092564c")
+	)
+	(fp_line
+		(start 0.56 -2.61)
+		(end 1.61 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2ff77b3-3ec1-4849-aabf-1f81723bf957")
+	)
+	(fp_line
+		(start 1.61 -2.61)
+		(end 1.61 -2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ada337fc-e316-4e38-a815-ed58957fd09d")
+	)
+	(fp_line
+		(start 1.61 2.56)
+		(end 1.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d7ec38b-957b-44c1-ae36-93445248d9b0")
+	)
+	(fp_line
+		(start 1.61 2.61)
+		(end 0.56 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47bc1b52-f2dd-48e0-8963-bc611cd707ab")
+	)
+	(fp_poly
+		(pts
+			(xy -1.74 -2) (xy -2.07 -1.76) (xy -2.07 -2.24)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5d9728d3-e808-4f76-b95f-5e7ddf1668d2")
+	)
+	(fp_rect
+		(start -1.75 -2.75)
+		(end 1.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2893a138-371e-4648-9bad-e772c7aac85c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.75 -2.5) (xy 1.5 -2.5) (xy 1.5 2.5) (xy -1.5 2.5) (xy -1.5 -1.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a0eeabe1-618f-4bca-acf0-0347f7175016")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "00781668-2a56-4ba0-87e9-e8d8076df1e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "923ecc2e-9f94-45d0-89c1-130f441f3792")
+	)
+	(pad "2" smd roundrect
+		(at -1 -1.2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bec4dc32-1833-4145-8f75-dd65c46dcbf0")
+	)
+	(pad "3" smd roundrect
+		(at -1 -0.4)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0d5d1a7f-3e4b-4e16-b3b0-420f3b872398")
+	)
+	(pad "4" smd roundrect
+		(at -1 0.4)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "26f45eca-5d4d-4c4b-968e-8cda11288ad0")
+	)
+	(pad "5" smd roundrect
+		(at -1 1.2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "88336729-a10f-48e2-b76b-b06b8ca7b8d1")
+	)
+	(pad "6" smd roundrect
+		(at -1 2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "849016a0-fc19-43dd-9d43-63146adb9849")
+	)
+	(pad "7" smd roundrect
+		(at 0 2)
+		(size 0.6 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "79e98785-9d8a-42d2-b472-c502ce3d1459")
+	)
+	(pad "8" smd roundrect
+		(at 1 2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a5b1d6b5-76c5-4024-ba56-aef3c2eeaa87")
+	)
+	(pad "9" smd roundrect
+		(at 1 1.2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "303f89a4-aa14-42d1-9ee3-9e260e51cc4b")
+	)
+	(pad "10" smd roundrect
+		(at 1 0.4)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a72c6b56-7ab2-42ff-9582-bcc2f1806d8d")
+	)
+	(pad "11" smd roundrect
+		(at 1 -0.4)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7ad4c6c8-d7d9-4568-ab47-a8bcb43cf03c")
+	)
+	(pad "12" smd roundrect
+		(at 1 -1.2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e6f69d9b-abdd-47f7-a5cf-52aface9dcce")
+	)
+	(pad "13" smd roundrect
+		(at 1 -2)
+		(size 0.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "039f646d-f541-4460-980d-5fd4d591e645")
+	)
+	(pad "14" smd roundrect
+		(at 0 -2)
+		(size 0.6 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a6ddb8c3-5e11-4aa2-be47-7e53280c38c6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

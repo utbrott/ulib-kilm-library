@@ -1,0 +1,140 @@
+(footprint "Wurth_WR-TBL-322_Horizontal_691322310003"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb4fe532-af18-4eb6-81cc-f14cde28b819")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691322310003"
+		(at 0 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e6a8080d-88fd-48a0-994d-2aa821ca344f")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0d1ded1-15f9-4217-a931-3a781c6e35d9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b15bbf52-a127-4410-9f39-f02428f1ef63")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.31 -1.2)
+		(end 6.31 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bbee3c32-a289-4f4c-aaa0-260d077368a0")
+	)
+	(fp_poly
+		(pts
+			(xy -3.8 -1.5) (xy -4.3 -2) (xy -3.3 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "779ee1e6-b9a7-4aff-a412-4864207739de")
+	)
+	(fp_rect
+		(start -6.5 -1.4)
+		(end 6.5 8.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5447b42-0c6a-4db1-9eda-8ed417d6698b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8f371a3c-b7c7-41b1-8915-21a5d8ad903c")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.81 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "1fbac764-2877-475f-a314-d341296e81b7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f6b4bb0-ee76-4e2a-a0a3-1193d807bfa8")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "555e336c-c9c7-43d3-a60d-e6001dbd5716")
+	)
+	(embedded_fonts no)
+	(model "${ULIB_3DMODEL_DIR}/TerminalBlock/691322310003.stp"
+		(offset
+			(xyz 0 -3.4 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -180)
+		)
+	)
+)

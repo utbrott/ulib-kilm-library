@@ -1,0 +1,134 @@
+(footprint "Phoenix_MC-0.5-2-G-2.5-_1x02_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a790fceb-bcbc-4107-8c3e-2c4fa64c7df7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MC-0.5-2-G-2.5"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f3a48b3-1a82-4d51-98bc-911ec4e6ad3a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a035707a-9576-46d5-917e-ce76e7a5cfe1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d308f583-69c9-4d2d-ae25-58e7ed717d33")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.51 -1.26)
+		(end 3.51 8.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4026525a-9b1c-499e-be9e-19918013dece")
+	)
+	(fp_rect
+		(start -3.75 -1.5)
+		(end 3.75 9.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bce3cef2-0e5a-44cd-abfc-59179cd9bf43")
+	)
+	(fp_rect
+		(start -3.45 -1.2)
+		(end 3.45 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c762f672-7a4b-4609-83d5-fde1f9177bdf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9dcb6adc-d992-4f7e-b72a-13421570d326")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.25 0)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "d0bf4191-cd46-41ba-9dc4-f51971ba40b6")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 0)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4cb2b22b-8aa2-47dc-8265-439813f0d1c4")
+	)
+	(embedded_fonts no)
+	(model "${DRIVE_3DMODEL_DIR}/TerminalBlock/Phoenix_MC-0.5-2-G-2.5-_1x02_Horizontal.stp"
+		(offset
+			(xyz -3.5 -8.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
